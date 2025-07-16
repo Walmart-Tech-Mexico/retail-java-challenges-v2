@@ -1,13 +1,16 @@
+package com.walmarttech.discount;
+
 public class Customer {
     private String name;
-    private String membershipLevel;
+    // private String membershipLevel;
+    private MembershipLevel membershipLevel;
 
-    public Customer(String name, String membershipLevel) {
+    public Customer(String name, MembershipLevel membershipLevel) {
         this.name = name;
         this.membershipLevel = membershipLevel;
     }
 
-    public String getMembershipLevel() {
+    public MembershipLevel getMembershipLevel() {
         return membershipLevel;
     }
 
