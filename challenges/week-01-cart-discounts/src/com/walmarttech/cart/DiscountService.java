@@ -1,3 +1,5 @@
+package com.walmarttech.cart;
+
 public class DiscountService {
     public double applyDiscount(Product product) {
         if (product.hasDiscount() && product.getQuantity() >= 3) {
