@@ -22,8 +22,8 @@
   </dependencies>
 
   <build>
-    <sourceDirectory>debugging/week-01-missing-discount/src</sourceDirectory>
-    <testSourceDirectory>debugging/week-01-missing-discount/test</testSourceDirectory>
+    <sourceDirectory>challenges/week-01-cart-discounts/src</sourceDirectory>
+    <testSourceDirectory>challenges/week-01-cart-discounts/test</testSourceDirectory>
 
     <plugins>
       <plugin>
