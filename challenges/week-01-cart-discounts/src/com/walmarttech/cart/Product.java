@@ -1,3 +1,5 @@
+package com.walmarttech.cart;
+
 public class Product {
     private String name;
     private double price;
