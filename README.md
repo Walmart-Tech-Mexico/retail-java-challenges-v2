@@ -1,4 +1,4 @@
-# 🧩 Retail Java Challenges
+# 🧩 Retail Java Challenges (Respuesta)
 
 Bienvenid@ a los retos técnicos semanales de Walmart Tech.  
 Resuelve problemas inspirados en la vida real del retail usando Java. ¡Contribuye, aprende y destaca!
@@ -21,3 +21,9 @@ Resuelve problemas inspirados en la vida real del retail usando Java. ¡Contribu
 ---
 
 📣 Usa [Discussions](https://github.com/tu-org/retail-java-challenges/discussions) para compartir ideas y mejoras.
+
+## Respuesta
+Reacomode las carpetas y los archivos para no tener problema con Maven para asi trabajar con Junit <br>
+Para el ejercicio de discount quise hacerlo mas legible quitando totalAmount y en vez de multiplicarlo por 0.2
+agregue el 20 para el 20% de descuento así mismo si no se cumple con la condición automáticamente regresa el 0.0
+para indicar que no hay descuento
