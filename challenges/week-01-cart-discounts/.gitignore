@@ -1,0 +1,21 @@
+# Ignorar archivos globales
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Ignorar binarios de compilación generales
+target/
+build/
+
+# Ignorar subdirectorios de compilación en cualquier microservicio
+**/target/
+**/build/
+
+# Ignorar NetBeans y otros IDEs
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
